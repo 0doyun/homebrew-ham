@@ -1,18 +1,18 @@
 class Ham < Formula
   desc "Multi-agent orchestration with pixel hamsters for Claude Code"
   homepage "https://github.com/0doyun/ham-agents"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   depends_on :macos
   depends_on arch: :arm64
 
-  url "https://github.com/0doyun/ham-agents/releases/download/v0.1.1/ham-agents_darwin_arm64.tar.gz"
-  sha256 "93f3a31f095ecabc5ec51e8e4050f5a010cdf743b18fc3028e411e4f52399260"
+  url "https://github.com/0doyun/ham-agents/releases/download/v0.1.2/ham-agents_darwin_arm64.tar.gz"
+  sha256 "ad892cd2980f4223366ed947c3712f43bd76d5f9849c1e3ab252a5812756c9e9"
 
   bottle do
-    root_url "https://github.com/0doyun/ham-agents/releases/download/v0.1.1"
-    sha256 cellar: :any_skip_relocation, all: "a8ab9597ebc59679198d224ad49f2a325cf7585d3df162d9610d01ebc8004023"
+    root_url "https://github.com/0doyun/ham-agents/releases/download/v0.1.2"
+    sha256 cellar: :any_skip_relocation, all: "a9d22e68da878c6139f9949e9ad070577f0a4e05fb351e8ede08b196f1d4c3fa"
   end
 
   def install
