@@ -10,6 +10,11 @@ class Ham < Formula
   url "https://github.com/0doyun/ham-agents/releases/download/v0.1.0/ham-agents_darwin_arm64.tar.gz"
   sha256 "006237c4541325cc4dd62f69d6b9d3f89b3cdf02fe950dc92ccb6c84e215d6f5"
 
+  bottle do
+    root_url "https://github.com/0doyun/ham-agents/releases/download/v0.1.0"
+    sha256 cellar: :any_skip_relocation, all: "63eab02d3e60cd619003364040c2fdaf93bf8e3fed8f20c7ab9fa54c6c419e61"
+  end
+
   def install
     bin.install "ham"
     bin.install "hamd"
